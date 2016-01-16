@@ -1,0 +1,30 @@
+{
+  "name": "make-set",
+  "version": "0.0.0",
+  "description": "Ensures that a given input can be used as a set",
+  "main": "dist/make-set.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "rollup -i src/make-set.js -o dist/make-set.js -f umd -n makeSet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-/make-set.git"
+  },
+  "keywords": [
+    "make",
+    "set",
+    "array",
+    "iterable"
+  ],
+  "author": "Jamie Hoeks <j@skeoh.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j-/make-set/issues"
+  },
+  "homepage": "https://github.com/j-/make-set#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "rollup": "^0.24.1"
+  }
+}
